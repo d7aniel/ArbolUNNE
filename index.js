@@ -131,7 +131,7 @@ async function setupObjects(longitude, latitude) {
   let modeloBase = new THREE.Object3D();
   await cargarModelo("modelo/EL_ARBOL_Prototipo.glb", modeloBase).then((resultado) => {});
   console.log(longitude, latitude);
-  threex.add(modeloBase, -58.982556, -27.468275, -4);
+  threex.add(modeloBase, -58.982702, -27.468135, -10);
 
   // let modeloBase2 = new THREE.Object3D();
   // await cargarModelo("modelo/EL_ARBOL_Prototipo.glb", modeloBase2).then((resultado) => {});
